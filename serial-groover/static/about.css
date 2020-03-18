@@ -1,0 +1,17 @@
+body {
+  padding: 10px;
+  font-family: sans-serif;
+}
+h1 {
+  color: #009900;
+  margin-top: 25px;
+  margin-bottom: 4px;
+}
+p {
+  margin: 5px;
+  text-align: justify;
+}
+p a {
+  color: #009900;
+  text-decoration: none;
+}
