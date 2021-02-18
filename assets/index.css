@@ -4,6 +4,7 @@ body, html {
   padding: 0;
   font-family: "Lato", sans-serif;
   font-size: 20px;
+  background-color: #fff;
 }
 
 .fullscreen {
@@ -16,8 +17,8 @@ body, html {
 }
 
 .title {
-  background: #36b5b0;
-  color: #fcf5b0;
+  background: #fcf5b0;
+  color: #36b5b0;
   position: relative;
 }
 .title h1 {
@@ -34,18 +35,29 @@ body, html {
 }
 .title_links a {
   font-size: 38px;
-  color: #fcf5b0;
+  color: #36b5b0;
   margin: 8px;
 }
 
+.paragraph {
+  padding: 96px;
+  font-size: 2.5em;
+  text-align: center;
+  background: #36b5b0;
+  color: #fcf5b0;
+}
+.paragraph p {
+  margin: 8px 0;
+}
+
 .projects-page {
-  background: #f09595;
   color: #000;
   justify-content: space-evenly;
+  text-align: center;
 }
 .projects-page h2 {
   font-size: 2.5em;
-  font-weight: bold;
+  font-weight: normal;
 }
 .projects-page .projects {
   width: 100%;
@@ -55,7 +67,6 @@ body, html {
 }
 .projects-page .projects .project {
   width: 300px;
-  text-align: center;
   margin: 32px;
 }
 .projects-page .projects .project h3 {
@@ -88,7 +99,32 @@ body, html {
   width: 100%;
   font-size: 2em;
   font-weight: bold;
-  color: #f09595;
+  color: #fff;
+}
+
+.separator {
+  padding: 4px;
+}
+.separator:nth-of-type(3n) {
+  background-color: #36b5b0;
+}
+.separator:nth-of-type(3n+1) {
+  background-color: #fcf5b0;
+}
+.separator:nth-of-type(3n+2) {
+  background-color: #f09595;
+}
+
+footer {
+  padding: 32px;
+  background-color: #f09595;
+  color: #fff;
+  text-align: center;
+}
+footer .footer-links a {
+  font-size: 38px;
+  color: #fff;
+  margin: 8px;
 }
 
 /*# sourceMappingURL=index.css.map */

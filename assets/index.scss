@@ -3,6 +3,7 @@ $palette2: #9dd8c8;
 $palette3: #f09595;
 $palette4: #fcf5b0;
 $black: #000;
+$background: #fff;
 
 body, html {
   height: 100%;
@@ -10,6 +11,7 @@ body, html {
   padding: 0;
   font-family: 'Lato', sans-serif;
   font-size: 20px;
+  background-color: $background;
 }
 
 .fullscreen {
@@ -22,8 +24,8 @@ body, html {
 }
 
 .title {
-  background: $palette1;
-  color: $palette4;
+  background: $palette4;
+  color: $palette1;
   position: relative;
 
   h1 {
@@ -41,20 +43,32 @@ body, html {
 
     a {
       font-size: 38px;
-      color: $palette4;
+      color: $palette1;
       margin: 8px;
     }
   }
 }
 
+.paragraph {
+  padding: 96px;
+  font-size: 2.5em;
+  text-align: center;
+  background: $palette1;
+  color: $palette4;
+
+  p {
+    margin: 8px 0;
+  }
+}
+
 .projects-page {
-  background: $palette3;
   color: $black;
   justify-content: space-evenly;
+  text-align: center;
 
   h2 {
     font-size: 2.5em;
-    font-weight: bold;
+    font-weight: normal;
   }
 
   .projects {
@@ -66,7 +80,6 @@ body, html {
     .project {
       $project-width: 300px;
       width: $project-width;
-      text-align: center;
       margin: 32px;
       
       h3 {
@@ -103,10 +116,37 @@ body, html {
           width: 100%;
           font-size: 2em;
           font-weight: bold;
-          color: $palette3;
+          color: $background;
         }
       }
     }
   }
 }
+
+.separator {
+  padding: 4px;
+  &:nth-of-type(3n) {
+    background-color: $palette1;
+  }
+  &:nth-of-type(3n+1) {
+    background-color: $palette4;
+  }
+  &:nth-of-type(3n+2) {
+    background-color: $palette3;
+  }
+}
+
+footer {
+  padding: 32px;
+  background-color: $palette3;
+  color: $background;
+  text-align: center;
   
+  .footer-links {
+    a {
+      font-size: 38px;
+      color: $background;
+      margin: 8px;
+    }
+  }
+}
