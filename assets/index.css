@@ -101,6 +101,9 @@ body, html {
   font-weight: bold;
   color: #fff;
 }
+.projects-page .projects .project .techno {
+  font-size: 1.5em;
+}
 
 .separator {
   padding: 4px;
