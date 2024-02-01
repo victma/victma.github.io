@@ -28,15 +28,15 @@ const HomePage = () => {
         <p className="text-xl">I am a Fullstack Software Engineer</p>
         <p className="text-sm">Welcome to my website</p>
         <p className="text-xs max-w-sm">
-          Why don't you click on the arrow below and see some of my work while
-          you're here ?
+          Why don&apos;t you click on the arrow below and see some of my work
+          while you&apos;re here ?
         </p>
         <div className="relative group">
           <a className="text-5xl cursor-pointer" href="#projects">
             ⇩
           </a>
           <p className="text-xs absolute w-max top-2 left-full invisible group-hover:visible">
-            yes, that's the one
+            yes, that&apos;s the one
           </p>
         </div>
       </div>
