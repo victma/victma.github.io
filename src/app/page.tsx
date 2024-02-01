@@ -77,7 +77,7 @@ const HomePage = () => {
           .
         </p>
         <p>
-          You are the bottom.{" "}
+          You are at the bottom.{" "}
           <a href="#top" className="underline">
             Get back to the top
           </a>
