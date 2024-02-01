@@ -1,7 +1,7 @@
 {
   "name": "victma.github.io",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "license": "Unlicense",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

@@ -6,6 +6,22 @@ import ContactLinksComponent from "@/components/contact/ContactLinks";
 const HomePage = () => {
   return (
     <>
+      <div className="text-sm font-extralight text-center" id="top">
+        <a
+          className="inline-block underline text-blue-300 p-1"
+          href="https://linkedin.com/in/victormalet"
+          target="_blank"
+        >
+          Linkedin
+        </a>
+        <a
+          className="inline-block underline p-1"
+          href="https://github.com/victma"
+          target="_blank"
+        >
+          Github
+        </a>
+      </div>
       <div className="h-screen flex flex-col justify-center items-center p-4 gap-4 text-center">
         <h1 className="text-6xl sm:text-8xl font-mono">Hello</h1>
         <p className="text-4xl sm:text-5xl">I am Victor</p>
@@ -47,6 +63,27 @@ const HomePage = () => {
         </h2>
         <ContactLinksComponent />
       </div>
+      <footer className="p-4 text-xs font-extralight text-center">
+        <p className="m-1">Made by @victma in 🇭🇰 and 🇫🇷.</p>
+        <p className="m-1">
+          No right reserved, just help yourself{" "}
+          <a
+            href="https://github.com/victma/victma.github.io"
+            className="underline"
+            target="_blank"
+          >
+            here
+          </a>
+          .
+        </p>
+        <p>
+          You are the bottom.{" "}
+          <a href="#top" className="underline">
+            Get back to the top
+          </a>
+          .
+        </p>
+      </footer>
     </>
   );
 };
